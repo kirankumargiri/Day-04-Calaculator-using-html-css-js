@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+
+<body>
+    <div class="div">
+        <div class="div1">
+            <h1>Let's Use The Calculator</h1>
+        </div>
+        <div class="div2">
+            <input type="text" name="first operand" id="a" placeholder="Enter The First Number">
+            <select name="operator" id="b">
+                <option value="add">+(Add)</option>
+                <option value="subtract">-(subtract)</option>
+                <option value="multiply">*(multiply)</option>
+                <option value="divide">/(divide)</option>
+
+            </select>
+            <input type="text" name="second operand" id="c" placeholder="Enter The Second Number">
+        </div>
+        <div class="div3">
+            <button id="d" onclick="addnum();"><b>Calculate</b></button>
+
+        </div>
+        <div class="div4">
+            <b>The result is:-</b><input type="number" name="result" id="e">
+        </div>
+    </div>
+
+
+</body>
+<script src="calculator.js"></script>
+
+</html>
